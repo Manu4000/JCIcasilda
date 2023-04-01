@@ -252,6 +252,9 @@ header.masthead .masthead-subheading {
 .redondeo{
     border-radius: 100% !important;
 }
+.proyectos{
+  background-color: #0397D6;
+}
 .contacto{
     font-size: 1rem;
     font-weight: 400;
