@@ -3,12 +3,18 @@
     margin: 0;
     padding: 0%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 .nab-style {
     border-style: solid;
     border-width: 0px 0px 3px 0px;
     border-color: #a62733;
     background-color: #1d1c22be;
 }
+
+body{
+  background-color: rgba(128, 128, 128, 0.39);
+}
+
 .imagennav {
     width: 150px;
     height: auto;
@@ -95,8 +101,6 @@ header.masthead .masthead-subheading {
     height: 80px;
     margin-left: 0;
     text-align: center;
-    color: white;
-    border: 3px solid #e9ecef;
     border-radius: 100%;
   }
   .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
@@ -268,3 +272,67 @@ header.masthead .masthead-subheading {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color: #1d1c22;
   }
+
+.carousel-inner{
+  width: 50rem;
+  height: 40rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.raees{
+  font-size: 1.05rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.aad{
+  font-size: 1.05rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  margin-top: 25%;
+}
+
+.titulo{
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  background-color: #1d1c22;
+  color: white;
+  border-radius: 2rem;
+  border-width: 1rem;
+}
+
+@media(max-width: 550px ){
+  .carousel-inner{
+    width: 100%;
+    height: 50% ;
+  }
+  
+  .raees{
+    font-size: 1.05rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+  }
+  
+  .titulo{
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+  }
+}
+
+p{
+  color: black;
+  font-size: 1.1rem;
+}
+
+.manu:hover{
+background-color: #CFA83C;
+}
+
+.qr{
+  width: 7rem;
+  height: 7rem;
+}
