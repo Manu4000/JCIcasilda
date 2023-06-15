@@ -282,7 +282,7 @@ header.masthead .masthead-subheading {
   justify-content: center;
 }
 
-.aliados{
+.aliados img{
   width: 40rem;
   height: 20rem;
 }
@@ -314,6 +314,10 @@ header.masthead .masthead-subheading {
   .carousel-inner{
     width: 100%;
     height: 50% ;
+  }
+  .aliados img{
+    width: 20rem;
+    height: 10rem;
   }
   
   .raees{
